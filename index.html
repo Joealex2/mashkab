@@ -333,6 +333,57 @@
 
         </div>
       </div>
+      <!-- Formulario -->
+      <div class="col-12 col-lg-5">
+        <div class="rounded-4 p-4 h-100" style="background:#111827; border: 1px solid #1a3a6e;">
+
+          <h4 class="text-warning fw-bold text-uppercase mb-4" style="font-size:.9rem; letter-spacing:.1em;">
+            📋 Formulario de contacto
+          </h4>
+
+          <form action="registrar.php" method="POST">
+
+            <div class="row g-3 mb-3">
+              <div class="col-12 col-sm-6">
+                <label class="form-label text-white-50 small text-uppercase mb-1">Nombre</label>
+                <input type="text" name="nombre" placeholder="Tu nombre"
+                       class="form-control bg-black text-white border-secondary" required>
+              </div>
+              <div class="col-12 col-sm-6">
+                <label class="form-label text-white-50 small text-uppercase mb-1">E-mail</label>
+                <input type="email" name="correo" placeholder="Tu correo"
+                       class="form-control bg-black text-white border-secondary" required>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label text-white-50 small text-uppercase mb-1">Teléfono</label>
+              <input type="text" name="telefono" placeholder="Tu teléfono"
+                     class="form-control bg-black text-white border-secondary">
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label text-white-50 small text-uppercase mb-1">Mensaje</label>
+              <textarea name="mensaje" rows="5"
+                        class="form-control bg-black text-white border-secondary"
+                        placeholder="¿En qué te podemos ayudar?" required></textarea>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-warning text-black fw-bold text-uppercase py-2">
+                Enviar mensaje →
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
       
