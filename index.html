@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -61,192 +60,284 @@
     </div>
 </section>
 
-<section class="dos-columnas seccion-beneficios">
-    <div class="beneficios-imagen">
-        <img src="img/centrogym.jpeg" class="img-servicio" alt="Centro Mashka Box">
+<!-- BENEFICIOS -->
+<section class="container-fluid bg-black text-white py-5" id="servicios">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
 
-        <a href="#contacto" class="boton boton-registro">REGÍSTRATE AHORA</a>
-    </div>
+            <div class="col-md-6 text-center">
+                <img src="img/centrogym.jpeg" class="img-fluid rounded-5 shadow" alt="Centro Mashka Box">
 
-    <div class="beneficios-contenido">
-        <h2 class="titulo-seccion" id="servicios">
-            BENEFICIOS
-        </h2>
-
-        <p class="texto-beneficios">
-            Entrena en un espacio diseñado para motivarte, mejorar tu condición física y alcanzar tus objetivos.
-        </p>
-
-        <ul class="lista-servicios">
-            <li>Entrenadores certificados</li>
-            <li>Rutinas personalizadas</li>
-            <li>Ambiente motivador</li>
-            <li>Equipos de calidad</li>
-        </ul>
-    </div>
-</section>
-
-<section class="seccion-planes">
-    <h2 class="titulo-seccion titulo-planes" id="planes">
-        PLANES DE ENTRENAMIENTO
-    </h2>
-
-    <p class="texto-planes">
-        Elige el plan que mejor se adapte a tu ritmo y empieza a entrenar con nosotros.
-    </p>
-
-    <div class="planes-contenedor">
-        <div class="planes-tabla">
-            <table class="tabla-planes">
-                <tr>
-                    <th>PLAN</th>
-                    <th>PRECIO</th>
-                    <th>DESCRIPCIÓN</th>
-                    <th>ACCIÓN</th>
-                </tr>
-
-                <tr>
-                    <td>Plan grupal</td>
-                    <td class="precio-tabla">$30</td>
-                    <td>Desde 3 personas</td>
-                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
-                </tr>
-
-                <tr>
-                    <td>Plan estudiantes</td>
-                    <td class="precio-tabla">$30</td>
-                    <td>Con carnet vigente</td>
-                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
-                </tr>
-
-                <tr class="fila-popular">
-                    <td>
-                        Plan mensual
-                        <span class="popular-tabla">POPULAR</span>
-                    </td>
-                    <td class="precio-tabla">$35</td>
-                    <td>Intenta un mes</td>
-                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
-                </tr>
-
-                <tr>
-                    <td>Plan trimestral</td>
-                    <td class="precio-tabla">$95</td>
-                    <td>Comprométete 90 días</td>
-                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
-                </tr>
-
-                <tr>
-                    <td>Plan semestral</td>
-                    <td class="precio-tabla">$180</td>
-                    <td>Convierte tu vida</td>
-                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="planes-imagen">
-            <img src="img/beneficios.jpeg" class="img-planes" alt="Planes Mashka Box">
-        </div>
-    </div>
-</section>
-
-<section class="dos-columnas seccion-horarios">
-    <div class="horarios-imagen">
-        <img src="img/fotohorario.jpeg" class="img-horario" alt="Horarios Mashka Box">
-    </div>
-
-    <div class="horarios-contenido">
-        <h2 class="titulo-seccion" id="horarios">
-            HORARIOS DE ATENCIÓN
-        </h2>
-
-        <p class="texto-horarios">
-            Contamos con horarios flexibles para que puedas entrenar en el momento que mejor se adapte a tu rutina.
-        </p>
-
-        <div class="bloque-horario-semana">
-            <h3 class="subtitulo-horarios">Lunes a viernes</h3>
-
-            <table class="tabla-horario">
-                <tr>
-                    <th>MAÑANA</th>
-                    <th>TARDE / NOCHE</th>
-                </tr>
-
-                <tr>
-                    <td>5:00 AM</td>
-                    <td>4:00 PM</td>
-                </tr>
-
-                <tr>
-                    <td>6:00 AM</td>
-                    <td>5:00 PM</td>
-                </tr>
-
-                <tr>
-                    <td>7:00 AM</td>
-                    <td>6:00 PM</td>
-                </tr>
-
-                <tr>
-                    <td>8:00 AM</td>
-                    <td>7:00 PM</td>
-                </tr>
-
-                <tr>
-                    <td>-</td>
-                    <td>8:00 PM</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="bloque-horario-sabado">
-            <h3 class="subtitulo-horarios">Sábado</h3>
-
-            <div class="tarjeta-sabado">
-                <span class="etiqueta-sabado">Horario especial</span>
-                <p class="hora-sabado">9:00 AM</p>
+                <a href="#contacto" class="btn btn-warning fw-bold rounded-pill px-5 py-3 mt-4">
+                    REGÍSTRATE AHORA
+                </a>
             </div>
+
+            <div class="col-md-6">
+                <h2 class="display-4 fw-bold text-warning mb-4">
+                    BENEFICIOS
+                </h2>
+
+                <p class="fs-5 text-light mb-4">
+                    Entrena en un espacio diseñado para motivarte, mejorar tu condición física y alcanzar tus objetivos.
+                </p>
+
+                <div class="list-group">
+                    <div class="list-group-item bg-dark text-white border-warning fs-4 p-3 mb-3 rounded">
+                        ✓ Entrenadores certificados
+                    </div>
+
+                    <div class="list-group-item bg-dark text-white border-warning fs-4 p-3 mb-3 rounded">
+                        ✓ Rutinas personalizadas
+                    </div>
+
+                    <div class="list-group-item bg-dark text-white border-warning fs-4 p-3 mb-3 rounded">
+                        ✓ Ambiente motivador
+                    </div>
+
+                    <div class="list-group-item bg-dark text-white border-warning fs-4 p-3 mb-3 rounded">
+                        ✓ Equipos de calidad
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
-<section class="dos-columnas seccion-ubicacion">
-    <div class="ubicacion-info">
-        <h2 class="titulo-seccion" id="ubicacion">
-            UBICACIÓN
+<!-- PLANES -->
+<section class="container-fluid bg-black text-white py-5" id="planes">
+    <div class="container py-5">
+
+        <h2 class="display-4 fw-bold text-warning mb-3">
+            PLANES DE ENTRENAMIENTO
         </h2>
 
-        <p class="texto-ubicacion">
-            Visítanos en Latacunga y empieza tu entrenamiento en un ambiente motivador.
+        <p class="fs-5 text-light mb-5">
+            Elige el plan que mejor se adapte a tu ritmo y empieza a entrenar con nosotros.
         </p>
 
-        <div class="tarjeta-mapa">
-            <iframe class="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.275335287101!2d-78.61389142384922!3d-0.9452788353509551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d461636565889b%3A0x390a2c8fd01dcfa2!2sMashka%20Box%20Training%20Club!5e0!3m2!1ses-419!2sec!4v1777426934700!5m2!1ses-419!2sec"
-                allowfullscreen
-                loading="lazy">
-            </iframe>
-        </div>
+        <div class="row align-items-center g-5">
 
-        <div class="datos-ubicacion">
-            <p class="direccion">Av. Unidad Nacional y Manuelita Saenz</p>
-            <p class="ciudad">Latacunga - Ecuador</p>
-        </div>
+            <div class="col-lg-8">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover align-middle text-center border border-primary">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>PLAN</th>
+                                <th>PRECIO</th>
+                                <th>DESCRIPCIÓN</th>
+                                <th>ACCIÓN</th>
+                            </tr>
+                        </thead>
 
-        <a href="https://www.google.com/maps/search/?api=1&query=Mashka+Box+Training+Club+Latacunga" target="_blank" class="boton boton-mapa">
-            VER EN GOOGLE MAPS
-        </a>
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold">Plan grupal</td>
+                                <td class="text-warning fw-bold fs-4">$30</td>
+                                <td>Desde 3 personas</td>
+                                <td>
+                                    <a href="#contacto" class="btn btn-warning fw-bold rounded-pill px-4">
+                                        Elegir
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="fw-bold">Plan estudiantes</td>
+                                <td class="text-warning fw-bold fs-4">$30</td>
+                                <td>Con carnet vigente</td>
+                                <td>
+                                    <a href="#contacto" class="btn btn-warning fw-bold rounded-pill px-4">
+                                        Elegir
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr class="table-active">
+                                <td class="fw-bold">
+                                    Plan mensual
+                                    <span class="badge bg-primary ms-2">POPULAR</span>
+                                </td>
+                                <td class="text-warning fw-bold fs-4">$35</td>
+                                <td>Intenta un mes</td>
+                                <td>
+                                    <a href="#contacto" class="btn btn-warning fw-bold rounded-pill px-4">
+                                        Elegir
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="fw-bold">Plan trimestral</td>
+                                <td class="text-warning fw-bold fs-4">$95</td>
+                                <td>Comprométete 90 días</td>
+                                <td>
+                                    <a href="#contacto" class="btn btn-warning fw-bold rounded-pill px-4">
+                                        Elegir
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="fw-bold">Plan semestral</td>
+                                <td class="text-warning fw-bold fs-4">$180</td>
+                                <td>Convierte tu vida</td>
+                                <td>
+                                    <a href="#contacto" class="btn btn-warning fw-bold rounded-pill px-4">
+                                        Elegir
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img src="img/beneficios.jpeg" class="img-fluid rounded-5 shadow" alt="Planes Mashka Box">
+            </div>
+
+        </div>
     </div>
+</section>
 
-    <div class="ubicacion-video">
-        <h3 class="titulo-video">Conoce nuestro espacio</h3>
+<!-- HORARIOS -->
+<section class="container-fluid bg-black text-white py-5" id="horarios">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
 
-        <div class="contenedor-video">
-            <video autoplay muted loop playsinline controls class="video">
-                <source src="vid/presentacion.mp4" type="video/mp4">
-            </video>
+            <div class="col-lg-5 text-center">
+                <img src="img/fotohorario.jpeg" class="img-fluid rounded-5 shadow" alt="Horarios Mashka Box">
+            </div>
+
+            <div class="col-lg-7">
+                <h2 class="display-4 fw-bold text-warning mb-3">
+                    HORARIOS DE ATENCIÓN
+                </h2>
+
+                <p class="fs-5 text-light mb-4">
+                    Contamos con horarios flexibles para que puedas entrenar en el momento que mejor se adapte a tu rutina.
+                </p>
+
+                <h3 class="text-info fw-bold mb-3">
+                    Lunes a viernes
+                </h3>
+
+                <div class="table-responsive">
+                    <table class="table table-dark table-bordered border-warning text-center align-middle">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>MAÑANA</th>
+                                <th>TARDE / NOCHE</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="fs-5 fw-bold">5:00 AM</td>
+                                <td class="fs-5 fw-bold">4:00 PM</td>
+                            </tr>
+
+                            <tr>
+                                <td class="fs-5 fw-bold">6:00 AM</td>
+                                <td class="fs-5 fw-bold">5:00 PM</td>
+                            </tr>
+
+                            <tr>
+                                <td class="fs-5 fw-bold">7:00 AM</td>
+                                <td class="fs-5 fw-bold">6:00 PM</td>
+                            </tr>
+
+                            <tr>
+                                <td class="fs-5 fw-bold">8:00 AM</td>
+                                <td class="fs-5 fw-bold">7:00 PM</td>
+                            </tr>
+
+                            <tr>
+                                <td class="fs-5 fw-bold">-</td>
+                                <td class="fs-5 fw-bold">8:00 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="card bg-dark text-white border-info mt-4 shadow">
+                    <div class="card-body">
+                        <h3 class="text-info fw-bold">
+                            Sábado
+                        </h3>
+
+                        <span class="badge bg-primary mb-2">
+                            Horario especial
+                        </span>
+
+                        <p class="fs-2 text-warning fw-bold mb-0">
+                            9:00 AM
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- UBICACIÓN Y VIDEO -->
+<section class="container-fluid bg-black text-white py-5" id="ubicacion">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-7">
+                <h2 class="display-4 fw-bold text-warning mb-3">
+                    UBICACIÓN
+                </h2>
+
+                <p class="fs-5 text-light mb-4">
+                    Visítanos en Latacunga y empieza tu entrenamiento en un ambiente motivador.
+                </p>
+
+                <div class="card bg-dark text-white border-info shadow">
+                    <div class="card-body">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.275335287101!2d-78.61389142384922!3d-0.9452788353509551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d461636565889b%3A0x390a2c8fd01dcfa2!2sMashka%20Box%20Training%20Club!5e0!3m2!1ses-419!2sec!4v1777426934700!5m2!1ses-419!2sec"
+                                allowfullscreen
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <p class="fs-4 fw-bold mb-1">
+                        Av. Unidad Nacional y Manuelita Saenz
+                    </p>
+
+                    <p class="text-light">
+                        Latacunga - Ecuador
+                    </p>
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=Mashka+Box+Training+Club+Latacunga" target="_blank" class="btn btn-warning fw-bold rounded-pill px-4 py-2">
+                        VER EN GOOGLE MAPS
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-5 text-center">
+                <h3 class="text-info fw-bold mb-4">
+                    Conoce nuestro espacio
+                </h3>
+
+                <div class="card bg-dark text-white border-warning shadow mx-auto" style="max-width:370px;">
+                    <div class="card-body">
+                        <video autoplay muted loop playsinline controls class="w-100 rounded">
+                            <source src="vid/presentacion.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -345,6 +436,6 @@
         <p>© 2026 MASHKA BOX TRAINING CLUB. Todos los derechos reservados.</p>
     </div>
 </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
