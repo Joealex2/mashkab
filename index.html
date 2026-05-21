@@ -1,281 +1,383 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASHKA BOX Training Club</title>
-    </div>
-</section>
 
-<!-- BENEFICIOS -->
-<section id="servicios" class="container-fluid py-5 bg-dark">
-    <div class="row align-items-center px-4">
-        <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
-            <img src="img/centrogym.jpeg" alt="Centro Mashka Box" class="img-fluid rounded shadow mb-3">
-        </div>
-        <div class="col-12 col-md-7">
-            <h2 class="fw-bold text-danger mb-3" style="font-family:'Bebas Neue',sans-serif;">BENEFICIOS</h2>
-            <p class="text-white-50 mb-4">Entrena en un espacio diseñado para motivarte, mejorar tu condición física y alcanzar tus objetivos.</p>
-            <ul class="list-group list-group-flush bg-transparent">
-                <li class="list-group-item bg-transparent text-white border-secondary">✅ Entrenadores certificados</li>
-                <li class="list-group-item bg-transparent text-white border-secondary">✅ Rutinas personalizadas</li>
-                <li class="list-group-item bg-transparent text-white border-secondary">✅ Ambiente motivador</li>
-                <li class="list-group-item bg-transparent text-white border-secondary">✅ Equipos de calidad</li>
-            </ul>
-        </div>
-    </div>
-</section>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
 
-<!-- TARJETAS DE SERVICIOS - Integrante 2: feature/cards-content -->
-<section class="container py-5" id="cards-servicios">
-    <h2 class="text-center fw-bold text-danger mb-2" style="font-family:'Bebas Neue',sans-serif;">NUESTROS SERVICIOS</h2>
-<p class="text-center text-white-50 mb-5">Descubre nuestros servicios especializados y alcanza tus metas con nosotros.</p>
-    <div class="row g-4">
+<body>
 
-        <div class="col-12 col-md-4">
-            <div class="card bg-secondary bg-opacity-10 border-secondary text-white h-100 shadow">
-                <img src="img/centrogym.jpeg" class="card-img-top" alt="Entrenamiento Grupal" style="height:200px;object-fit:cover;">
-                <div class="card-body">
-                    <h5 class="card-title text-danger fw-bold">Entrenamiento Grupal</h5>
-                    <p class="card-text text-white-50">Clases dinámicas en grupo con instructores certificados. Ideal para motivarte y conocer personas con tus mismos objetivos.</p>
-                </div>
-                <div class="card-footer text-center border-secondary">
-                    <a href="#contacto" class="btn btn-outline-danger w-100">Más información</a>
-                </div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-info fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#inicio">
+                <img src="img/logob.png" alt="Logo Mashka Box" width="90" height="50" class="me-2 rounded">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link active text-warning fw-bold">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link text-white">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#planes" class="nav-link text-white">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#horarios" class="nav-link text-white">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ubicacion" class="nav-link text-white">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link text-white">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+</header>
 
-        <div class="col-12 col-md-4">
-            <div class="card bg-danger text-white h-100 shadow border-0">
-                <img src="img/principal.jpeg" class="card-img-top" alt="Entrenamiento Personal" style="height:200px;object-fit:cover;">
-                <div class="card-body">
-                    <span class="badge bg-warning text-dark mb-2">⭐ POPULAR</span>
-                    <h5 class="card-title fw-bold">Entrenamiento Personal</h5>
-<p class="card-text">Rutinas personalizadas segun tu nivel y objetivos. Seguimiento constante para garantizar tu progreso.</p>                </div>
-                <div class="card-footer text-center border-0 bg-transparent">
-                    <a href="#contacto" class="btn btn-light w-100 text-danger fw-bold">Más información</a>
+<section id="inicio" class="bg-black text-white min-vh-100 d-flex align-items-center pt-5">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-1 fw-bold text-uppercase">
+                    MASHKA <br>
+                    <span class="text-warning">BOX</span>
+                </h1>
+
+                <h2 class="text-info fw-bold text-uppercase mb-4">
+                    Training Club
+                </h2>
+
+                <div class="mb-4">
+                    <p class="h4 text-warning fw-bold mb-1">NO NECESITAS EXPERIENCIA</p>
+                    <p class="h5 text-white">SOLO GANAS DE EMPEZAR</p>
+                </div>
+
+                <p class="lead">
+                    En nuestro centro de entrenamiento te ayudamos a mejorar tu condición física con rutinas adaptadas a tu nivel.
+                </p>
+
+                <p class="lead">
+                    Contamos con entrenadores capacitados, equipos de calidad y un ambiente motivador.
+                </p>
+
+                <div class="mt-4">
+                    <a href="#planes" class="btn btn-warning fw-bold rounded-pill px-4 me-2 mb-2">
+                        Ver planes
+                    </a>
+
+                    <a href="#contacto" class="btn btn-outline-info fw-bold rounded-pill px-4 mb-2">
+                        Contáctanos
+                    </a>
                 </div>
             </div>
-        </div>
 
-        <div class="col-12 col-md-4">
-            <div class="card bg-secondary bg-opacity-10 border-secondary text-white h-100 shadow">
-                <img src="img/beneficios.jpeg" class="card-img-top" alt="Box y Cardio" style="height:200px;object-fit:cover;">
-                <div class="card-body">
-                    <h5 class="card-title text-danger fw-bold">Box y Cardio</h5>
-                    <p class="card-text text-white-50">Sesiones de boxeo y cardio de alta intensidad para quemar calorías, mejorar tu resistencia y liberar el estrés.</p>
-                </div>
-                <div class="card-footer text-center border-secondary">
-                    <a href="#contacto" class="btn btn-outline-danger w-100">Más información</a>
-                </div>
+            <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                <img src="img/principal.jpeg" alt="Imagen principal Mashka Box" class="img-fluid rounded-circle border border-warning border-3 shadow" style="max-width: 430px;">
             </div>
-        </div>
 
-    </div>
-</section>
-
-<!-- PLANES -->
-<section class="container-fluid py-5 bg-black" id="planes">
-    <div class="container">
-        <h2 class="text-center fw-bold text-danger mb-2" style="font-family:'Bebas Neue',sans-serif;">PLANES DE ENTRENAMIENTO</h2>
-        <p class="text-center text-white-50 mb-5">Elige el plan que mejor se adapte a tu ritmo y empieza a entrenar con nosotros.</p>
-
-        <div class="row align-items-center g-4">
-            <div class="col-12 col-md-7">
-                <div class="table-responsive">
-                    <table class="table table-dark table-striped table-hover text-center align-middle">
-                        <thead class="table-danger">
-                            <tr>
-                                <th>PLAN</th>
-                                <th>PRECIO</th>
-                                <th>DESCRIPCIÓN</th>
-                                <th>ACCIÓN</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Plan grupal</td>
-                                <td class="text-danger fw-bold">$30</td>
-                                <td>Desde 3 personas</td>
-                                <td><a href="#contacto" class="btn btn-sm btn-outline-danger">Elegir</a></td>
-                            </tr>
-                            <tr>
-                                <td>Plan estudiantes</td>
-                                <td class="text-danger fw-bold">$30</td>
-                                <td>Con carnet vigente</td>
-                                <td><a href="#contacto" class="btn btn-sm btn-outline-danger">Elegir</a></td>
-                            </tr>
-                            <tr class="table-danger">
-                                <td><strong>Plan mensual</strong> <span class="badge bg-warning text-dark ms-1">POPULAR</span></td>
-                                <td class="fw-bold">$35</td>
-                                <td>Intenta un mes</td>
-                                <td><a href="#contacto" class="btn btn-sm btn-dark">Elegir</a></td>
-                            </tr>
-                            <tr>
-                                <td>Plan trimestral</td>
-                                <td class="text-danger fw-bold">$95</td>
-                                <td>Comprométete 90 días</td>
-                                <td><a href="#contacto" class="btn btn-sm btn-outline-danger">Elegir</a></td>
-                            </tr>
-                            <tr>
-                                <td>Plan semestral</td>
-                                <td class="text-danger fw-bold">$180</td>
-                                <td>Convierte tu vida</td>
-                                <td><a href="#contacto" class="btn btn-sm btn-outline-danger">Elegir</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-12 col-md-5 text-center">
-                <img src="img/beneficios.jpeg" alt="Planes Mashka Box" class="img-fluid rounded shadow">
-            </div>
         </div>
     </div>
 </section>
 
-<!-- HORARIOS -->
-<section class="container-fluid py-5 bg-dark" id="horarios">
-    <div class="container">
-        <div class="row align-items-center g-4">
-            <div class="col-12 col-md-5 text-center">
-                <img src="img/fotohorario.jpeg" alt="Horarios Mashka Box" class="img-fluid rounded shadow">
-            </div>
-            <div class="col-12 col-md-7">
-                <h2 class="fw-bold text-danger mb-3" style="font-family:'Bebas Neue',sans-serif;">HORARIOS DE ATENCIÓN</h2>
-                <p class="text-white-50 mb-4">Contamos con horarios flexibles para que puedas entrenar en el momento que mejor se adapte a tu rutina.</p>
+<section class="dos-columnas seccion-beneficios">
+    <div class="beneficios-imagen">
+        <img src="img/centrogym.jpeg" class="img-servicio" alt="Centro Mashka Box">
 
-                <h5 class="text-white mb-2">Lunes a viernes</h5>
-                <div class="table-responsive mb-4">
-                    <table class="table table-dark table-bordered text-center">
-                        <thead class="table-danger">
-                            <tr>
-                                <th>MAÑANA</th>
-                                <th>TARDE / NOCHE</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>5:00 AM</td><td>4:00 PM</td></tr>
-                            <tr><td>6:00 AM</td><td>5:00 PM</td></tr>
-                            <tr><td>7:00 AM</td><td>6:00 PM</td></tr>
-                            <tr><td>8:00 AM</td><td>7:00 PM</td></tr>
-                            <tr><td>-</td><td>8:00 PM</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+        <a href="#contacto" class="boton boton-registro">REGÍSTRATE AHORA</a>
+    </div>
 
-                <h5 class="text-white mb-2">Sábado</h5>
-                <div class="alert alert-danger d-inline-block">
-                    <span class="badge bg-warning text-dark me-2">Horario especial</span>
-                    <strong>9:00 AM</strong>
-                </div>
+    <div class="beneficios-contenido">
+        <h2 class="titulo-seccion" id="servicios">
+            BENEFICIOS
+        </h2>
+
+        <p class="texto-beneficios">
+            Entrena en un espacio diseñado para motivarte, mejorar tu condición física y alcanzar tus objetivos.
+        </p>
+
+        <ul class="lista-servicios">
+            <li>Entrenadores certificados</li>
+            <li>Rutinas personalizadas</li>
+            <li>Ambiente motivador</li>
+            <li>Equipos de calidad</li>
+        </ul>
+    </div>
+</section>
+
+<section class="seccion-planes">
+    <h2 class="titulo-seccion titulo-planes" id="planes">
+        PLANES DE ENTRENAMIENTO
+    </h2>
+
+    <p class="texto-planes">
+        Elige el plan que mejor se adapte a tu ritmo y empieza a entrenar con nosotros.
+    </p>
+
+    <div class="planes-contenedor">
+        <div class="planes-tabla">
+            <table class="tabla-planes">
+                <tr>
+                    <th>PLAN</th>
+                    <th>PRECIO</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>ACCIÓN</th>
+                </tr>
+
+                <tr>
+                    <td>Plan grupal</td>
+                    <td class="precio-tabla">$30</td>
+                    <td>Desde 3 personas</td>
+                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
+                </tr>
+
+                <tr>
+                    <td>Plan estudiantes</td>
+                    <td class="precio-tabla">$30</td>
+                    <td>Con carnet vigente</td>
+                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
+                </tr>
+
+                <tr class="fila-popular">
+                    <td>
+                        Plan mensual
+                        <span class="popular-tabla">POPULAR</span>
+                    </td>
+                    <td class="precio-tabla">$35</td>
+                    <td>Intenta un mes</td>
+                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
+                </tr>
+
+                <tr>
+                    <td>Plan trimestral</td>
+                    <td class="precio-tabla">$95</td>
+                    <td>Comprométete 90 días</td>
+                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
+                </tr>
+
+                <tr>
+                    <td>Plan semestral</td>
+                    <td class="precio-tabla">$180</td>
+                    <td>Convierte tu vida</td>
+                    <td><a href="#contacto" class="boton-tabla">Elegir</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="planes-imagen">
+            <img src="img/beneficios.jpeg" class="img-planes" alt="Planes Mashka Box">
+        </div>
+    </div>
+</section>
+
+<section class="dos-columnas seccion-horarios">
+    <div class="horarios-imagen">
+        <img src="img/fotohorario.jpeg" class="img-horario" alt="Horarios Mashka Box">
+    </div>
+
+    <div class="horarios-contenido">
+        <h2 class="titulo-seccion" id="horarios">
+            HORARIOS DE ATENCIÓN
+        </h2>
+
+        <p class="texto-horarios">
+            Contamos con horarios flexibles para que puedas entrenar en el momento que mejor se adapte a tu rutina.
+        </p>
+
+        <div class="bloque-horario-semana">
+            <h3 class="subtitulo-horarios">Lunes a viernes</h3>
+
+            <table class="tabla-horario">
+                <tr>
+                    <th>MAÑANA</th>
+                    <th>TARDE / NOCHE</th>
+                </tr>
+
+                <tr>
+                    <td>5:00 AM</td>
+                    <td>4:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>6:00 AM</td>
+                    <td>5:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>7:00 AM</td>
+                    <td>6:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>7:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>-</td>
+                    <td>8:00 PM</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="bloque-horario-sabado">
+            <h3 class="subtitulo-horarios">Sábado</h3>
+
+            <div class="tarjeta-sabado">
+                <span class="etiqueta-sabado">Horario especial</span>
+                <p class="hora-sabado">9:00 AM</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- UBICACIÓN -->
-<section class="container-fluid py-5 bg-black" id="ubicacion">
-    <div class="container">
-        <div class="row g-4 align-items-start">
-            <div class="col-12 col-md-6">
-                <h2 class="fw-bold text-danger mb-3" style="font-family:'Bebas Neue',sans-serif;">UBICACIÓN</h2>
-                <p class="text-white-50 mb-3">Visítanos en Latacunga y empieza tu entrenamiento en un ambiente motivador.</p>
-                <div class="ratio ratio-16x9 mb-3 rounded overflow-hidden shadow">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.275335287101!2d-78.61389142384922!3d-0.9452788353509551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d461636565889b%3A0x390a2c8fd01dcfa2!2sMashka%20Box%20Training%20Club!5e0!3m2!1ses-419!2sec!4v1777426934700!5m2!1ses-419!2sec"
-                        allowfullscreen loading="lazy">
-                    </iframe>
-                </div>
-                <p class="text-white mb-1"><strong>Av. Unidad Nacional y Manuelita Saenz</strong></p>
-                <p class="text-white-50 mb-3">Latacunga - Ecuador</p>
-                <a href="https://www.google.com/maps/search/?api=1&query=Mashka+Box+Training+Club+Latacunga" target="_blank" class="btn btn-danger">
-                    VER EN GOOGLE MAPS
+<section class="dos-columnas seccion-ubicacion">
+    <div class="ubicacion-info">
+        <h2 class="titulo-seccion" id="ubicacion">
+            UBICACIÓN
+        </h2>
+
+        <p class="texto-ubicacion">
+            Visítanos en Latacunga y empieza tu entrenamiento en un ambiente motivador.
+        </p>
+
+        <div class="tarjeta-mapa">
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.275335287101!2d-78.61389142384922!3d-0.9452788353509551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d461636565889b%3A0x390a2c8fd01dcfa2!2sMashka%20Box%20Training%20Club!5e0!3m2!1ses-419!2sec!4v1777426934700!5m2!1ses-419!2sec"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="datos-ubicacion">
+            <p class="direccion">Av. Unidad Nacional y Manuelita Saenz</p>
+            <p class="ciudad">Latacunga - Ecuador</p>
+        </div>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Mashka+Box+Training+Club+Latacunga" target="_blank" class="boton boton-mapa">
+            VER EN GOOGLE MAPS
+        </a>
+    </div>
+
+    <div class="ubicacion-video">
+        <h3 class="titulo-video">Conoce nuestro espacio</h3>
+
+        <div class="contenedor-video">
+            <video autoplay muted loop playsinline controls class="video">
+                <source src="vid/presentacion.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="seccion-contacto">
+    <h2 class="titulo-seccion">CONTACTO</h2>
+
+    <p class="sub-contacto">
+        Déjanos tus datos y te responderemos pronto
+    </p>
+
+    <p class="sin-costo">
+        Sin costo de inscripción
+    </p>
+
+    <div class="contacto-contenedor">
+        <div class="contacto-info">
+            <img src="img/logob.png" class="img-logo-contacto" alt="Logo Mashka Box">
+
+            <h3>Comunícate con nosotros</h3>
+
+            <p class="texto-contacto">
+                Estamos listos para ayudarte a iniciar tu entrenamiento.
+            </p>
+
+            <div class="redes-contacto">
+                <a href="https://www.facebook.com/mashkabox" target="_blank" class="item-contacto">
+                    <span class="icono-contacto">f</span>
+                    <div>
+                        <strong>Facebook</strong>
+                        <p>Mashka Box</p>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/mashkabox/" target="_blank" class="item-contacto">
+                    <span class="icono-contacto">◎</span>
+                    <div>
+                        <strong>Instagram</strong>
+                        <p>@mashkabox</p>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/593983421877" target="_blank" class="item-contacto">
+                    <span class="icono-contacto">☎</span>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p>0983421877</p>
+                    </div>
                 </a>
             </div>
-            <div class="col-12 col-md-6">
-                <h5 class="text-white mb-3">Conoce nuestro espacio</h5>
-                <div class="ratio ratio-16x9 rounded overflow-hidden shadow">
-                    <video autoplay muted loop playsinline controls>
-                        <source src="vid/presentacion.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
+        </div>
+
+        <div class="contacto-formulario">
+            <form action="registrar.php" method="POST">
+                <input type="text" name="nombre" placeholder="Escribe tu nombre" class="caja-texto" required>
+
+                <input type="email" name="correo" placeholder="Escribe tu e-mail" class="caja-texto" required>
+
+                <input type="text" name="telefono" placeholder="Escribe tu teléfono" class="caja-texto">
+
+                <textarea name="mensaje" class="caja-mensaje" placeholder="Escribe tu mensaje" required></textarea>
+
+                <input type="submit" value="ENVIAR MENSAJE" class="boton">
+            </form>
         </div>
     </div>
 </section>
 
-<!-- CONTACTO -->
-<section class="container-fluid py-5 bg-dark" id="contacto">
-    <div class="container">
-        <h2 class="text-center fw-bold text-danger mb-2" style="font-family:'Bebas Neue',sans-serif;">CONTACTO</h2>
-        <p class="text-center text-white-50 mb-1">Déjanos tus datos y te responderemos pronto</p>
-        <p class="text-center text-warning fw-bold mb-5">Sin costo de inscripción</p>
+<footer class="pie">
+    <div class="footer-contenedor">
+        <div class="footer-logo">
+            <img src="img/logob.png" alt="Logo Mashka Box">
+            <p>Entrena con disciplina, constancia y motivación.</p>
+        </div>
 
-        <div class="row g-4">
-            <div class="col-12 col-md-5 text-center">
-                <img src="img/logob.png" alt="Logo Mashka Box" class="img-fluid mb-3" style="max-height:100px;">
-                <h5 class="text-white">Comunícate con nosotros</h5>
-                <p class="text-white-50 mb-4">Estamos listos para ayudarte a iniciar tu entrenamiento.</p>
+        <div class="footer-links">
+            <h3>Menú</h3>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#planes">Planes</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#contacto">Contacto</a>
+        </div>
 
-                <div class="d-flex flex-column gap-3">
-                    <a href="https://www.facebook.com/mashkabox" target="_blank" class="btn btn-outline-light d-flex align-items-center gap-2">
-                        <strong>f</strong> Facebook — Mashka Box
-                    </a>
-                    <a href="https://www.instagram.com/mashkabox/" target="_blank" class="btn btn-outline-light d-flex align-items-center gap-2">
-                        <strong>◎</strong> Instagram — @mashkabox
-                    </a>
-                    <a href="https://wa.me/593983421877" target="_blank" class="btn btn-success d-flex align-items-center gap-2">
-                        <strong>☎</strong> WhatsApp — 0983421877
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-7">
-                <form action="registrar.php" method="POST" class="d-flex flex-column gap-3">
-                    <input type="text" name="nombre" placeholder="Escribe tu nombre" class="form-control bg-dark text-white border-secondary" required>
-                    <input type="email" name="correo" placeholder="Escribe tu e-mail" class="form-control bg-dark text-white border-secondary" required>
-                    <input type="text" name="telefono" placeholder="Escribe tu teléfono" class="form-control bg-dark text-white border-secondary">
-                    <textarea name="mensaje" class="form-control bg-dark text-white border-secondary" rows="5" placeholder="Escribe tu mensaje" required></textarea>
-                    <button type="submit" class="btn btn-danger btn-lg fw-bold">ENVIAR MENSAJE</button>
-                </form>
-            </div>
+        <div class="footer-contacto">
+            <h3>Contacto</h3>
+            <a href="https://www.facebook.com/mashkabox" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/mashkabox/" target="_blank">Instagram</a>
+            <a href="https://wa.me/593983421877" target="_blank">WhatsApp</a>
+            <p>Latacunga - Ecuador</p>
         </div>
     </div>
-</section>
 
-<!-- FOOTER -->
-<footer class="bg-black text-white py-4">
-    <div class="container">
-        <div class="row g-4 text-center text-md-start">
-            <div class="col-12 col-md-4">
-                <img src="img/logob.png" alt="Logo Mashka Box" height="60" class="mb-2">
-                <p class="text-white-50 small">Entrena con disciplina, constancia y motivación.</p>
-            </div>
-            <div class="col-12 col-md-4">
-                <h6 class="text-danger fw-bold mb-3">Menú</h6>
-                <div class="d-flex flex-column gap-1">
-                    <a href="#inicio" class="text-white-50 text-decoration-none">Inicio</a>
-                    <a href="#servicios" class="text-white-50 text-decoration-none">Servicios</a>
-                    <a href="#planes" class="text-white-50 text-decoration-none">Planes</a>
-                    <a href="#horarios" class="text-white-50 text-decoration-none">Horarios</a>
-                    <a href="#ubicacion" class="text-white-50 text-decoration-none">Ubicación</a>
-                    <a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <h6 class="text-danger fw-bold mb-3">Contacto</h6>
-                <div class="d-flex flex-column gap-1">
-                    <a href="https://www.facebook.com/mashkabox" target="_blank" class="text-white-50 text-decoration-none">Facebook</a>
-                    <a href="https://www.instagram.com/mashkabox/" target="_blank" class="text-white-50 text-decoration-none">Instagram</a>
-                    <a href="https://wa.me/593983421877" target="_blank" class="text-white-50 text-decoration-none">WhatsApp</a>
-                    <p class="text-white-50 mb-0">Latacunga - Ecuador</p>
-                </div>
-            </div>
-        </div>
-        <hr class="border-secondary mt-4">
-        <p class="text-center text-white-50 small mb-0">© 2026 MASHKA BOX TRAINING CLUB. Todos los derechos reservados.</p>
+    <div class="footer-copy">
+        <p>© 2026 MASHKA BOX TRAINING CLUB. Todos los derechos reservados.</p>
     </div>
-</footer>>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>
